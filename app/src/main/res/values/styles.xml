@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="AppTheme.Text">
+
+    </style>
+
+    <style name="AppTheme.Text.Title">
+        <item name="android:textSize">@dimen/abc_text_size_large_material</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Text.Title.Centered" parent="AppTheme.Text.Title">
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
