@@ -35,11 +35,19 @@
 
                 <ToggleButton
                     android:id="@+id/toggleButton"
-                    android:layout_width="wrap_content"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:checked="true"
-                    android:textOff="Decrypt"
-                    android:textOn="Encrypt"/>
+                    android:textOff="@string/decrypt"
+                    android:textOn="@string/encrypt"/>
+
+                <ToggleButton
+                    android:id="@+id/languageButton"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:textOff="@string/russian"
+                    android:textOn="@string/english"/>
             </LinearLayout>
 
             <NumberPicker
@@ -62,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:hint="Enter message here"
+                android:hint="@string/EnterMessage"
                 android:inputType="none"
                 android:singleLine="true"
                 android:theme="@style/AppTheme.Text.Title.Centered"/>
@@ -77,11 +85,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:hint="Result"
+                android:hint="@string/Result"
                 android:inputType="none"
                 android:singleLine="true"
                 android:textIsSelectable="true"
                 android:theme="@style/AppTheme.Text.Title.Centered"/>
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/free_space"
+                />
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"/>
+
+
         </LinearLayout>
 
     </LinearLayout>

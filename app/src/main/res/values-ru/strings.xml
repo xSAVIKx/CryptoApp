@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CryptoApp</string>
+    <string name="enter_shift">Введите сдвиг:</string>
+    <string name="EnterMessage">Введите сообщение</string>
+    <string name="Result">Результат</string>
+    <string name="caesar_cypher_url">https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D1%84%D1%80_%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8F</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="decrypt">Зашифровать</string>
+    <string name="encrypt">Расшифровать</string>
+</resources>

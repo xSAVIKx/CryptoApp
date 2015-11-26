@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">CryptoApp</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
     <string name="enter_shift">Enter shift:</string>
+    <string name="EnterMessage">Enter message here</string>
+    <string name="Result">Result</string>
+    <string name="caesar_cypher_url">https://en.wikipedia.org/wiki/Caesar_cipher</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
 </resources>
